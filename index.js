@@ -82,7 +82,7 @@ function getOrderItems() {
         <div class = "food-added">
             <div>
                 ${food.name}
-                <button id="remove-btn" data-remove="${food.id}">remove<button>
+                <button id="remove-btn" data-remove="${food.id}">remove</button>
             </div>
             <div class="food-price">
                 $${food.price}
